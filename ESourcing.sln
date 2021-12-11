@@ -5,7 +5,7 @@ VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{0DB66458-4A25-4ADA-BC64-4BC5AB1409C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESourcing.Products", "ESourcingMicroService\ESourcing.Products\ESourcing.Products.csproj", "{22472DC1-CCC1-44DD-BDAF-9369E25929F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESourcing.Products", "ESourcing.Products\ESourcing.Products.csproj", "{22472DC1-CCC1-44DD-BDAF-9369E25929F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13B9D487-D4D9-47B3-87E4-3FB3A97BEABB}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sourcing", "Sourcing", "{6EEA46B8-8002-44F1-982F-B5FCFB786489}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AF94FFCC-8A42-4991-A151-DA388D1711CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESourcing.Sourcing", "ESourcing.Sourcing\ESourcing.Sourcing.csproj", "{5C938818-6F72-4872-9E6B-82D03140BCA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,18 @@ Global
 		{AF94FFCC-8A42-4991-A151-DA388D1711CE}.Release|x64.Build.0 = Release|Any CPU
 		{AF94FFCC-8A42-4991-A151-DA388D1711CE}.Release|x86.ActiveCfg = Release|Any CPU
 		{AF94FFCC-8A42-4991-A151-DA388D1711CE}.Release|x86.Build.0 = Release|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Debug|x64.Build.0 = Debug|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Release|x64.ActiveCfg = Release|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Release|x64.Build.0 = Release|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{5C938818-6F72-4872-9E6B-82D03140BCA6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +84,7 @@ Global
 		{283DB5D5-AD19-4EB4-A9EA-A088ABB8BD68} = {31F2F89C-9E8D-43E8-983E-4A927B5C4223}
 		{A490CEEA-7D66-42B1-A050-392B7ADE5643} = {31F2F89C-9E8D-43E8-983E-4A927B5C4223}
 		{6EEA46B8-8002-44F1-982F-B5FCFB786489} = {31F2F89C-9E8D-43E8-983E-4A927B5C4223}
+		{5C938818-6F72-4872-9E6B-82D03140BCA6} = {6EEA46B8-8002-44F1-982F-B5FCFB786489}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A880B5F-4AB6-4287-A555-8B93DA87BFDB}
